@@ -69,4 +69,28 @@ nav ul {
     background-color: white;
     color: #111;
 }
+/* About Section */
+#about {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 6%;
+}
+
+.about-content {
+    max-width: 800px;
+    text-align: center;
+}
+
+.about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #cccccc;
+}
 
