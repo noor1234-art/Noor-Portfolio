@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,31 +11,53 @@
 <body>
     
     <header>
-        <nav>
-            <a href="#"><i>Noor</i></a>
-            <ul>
-                <li><a href="#home"><i>HOME</i></a></li>
-                <li><a href=""><i>ABOUT</i></a></li>
-                <li><a href=""><i>EDUCATION</i></a></li>
-                <li><a href=""><i>SKILL</i></a></li>
-                <li><a href=""><i>PROJECT</i></a></li>
-                <li><a href=""><i>CONTACT</i></a></li>
-            </ul>
-        </nav>
+    <nav>
+    <a href="#home"><i>Noor</i></a>
+
+    <ul>
+        <li><a href="#home"><i>HOME</i></a></li>
+        <li><a href="#about"><i>ABOUT</i></a></li>
+        <li><a href="#education"><i>EDUCATION</i></a></li>
+        <li><a href="#skills"><i>SKILLS</i></a></li>
+        <li><a href="#projects"><i>PROJECTS</i></a></li>
+        <li><a href="#contact"><i>CONTACT</i></a></li>
+    </ul>
+</nav>
     </header>
 
     <main>
         <section id="home">
-<h1>Hi I'm Noor</h1>
+<h1>Hi, I'm <span>Noor</span></h1>
 <h2>Web Developer</h2>
-<a href="#projects">View My Work</a>
+<a href="#projects" id="viewWorkBtn">View My Work</a>
 <hr>
 <a href="#contact">Contact Me</a>        
 </section>
-<section id="#about">
-    <h2>About Me </h2>
-<p>I am a Computer Science Student passionate about web development and technology.</p>
+<section id="about">
+    <div class="about-content">
+        <h2>About Me</h2>
+
+        <p>
+            I'm a Computer Science student and aspiring Web Developer
+            passionate about creating modern and responsive websites.
+        </p>
+
+        <p>
+            I enjoy learning new technologies and turning ideas into
+            real-world projects. Currently, I'm strengthening my skills
+            in HTML, CSS, JavaScript, PHP, MySQL and Git & GitHub.
+        </p>
+
+        <p>
+            My goal is to become a skilled full-stack developer and
+            continue growing through practical projects and continuous learning.
+        </p>
+    </div>
 </section>
+<div class="hero-buttons">
+    <a href="cv.pdf" download>Download CV</a>
+    <a href="https://github.com/noor1234-art/Noor-Portfolio" target="_blank">GitHub</a>
+</div>
 <section id="skills">
 
     <div class="skills-content">
@@ -44,15 +68,44 @@
             Technologies and tools I'm currently learning and working with.
         </p>
 
-        <div class="skills-list">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>PHP</span>
-            <span>MySQL</span>
-            <span>Git & GitHub</span>
-            <span>WordPress</span>
-        </div>
+     <div class="skills-list">
+
+    <div class="skill-card">
+        <h3>HTML</h3>
+        <p>Building structured and semantic web pages.</p>
+    </div>
+
+    <div class="skill-card">
+        <h3>CSS</h3>
+        <p>Creating responsive and modern website designs.</p>
+    </div>
+
+    <div class="skill-card">
+        <h3>JavaScript</h3>
+        <p>Adding interactivity and dynamic features.</p>
+    </div>
+
+    <div class="skill-card">
+        <h3>PHP</h3>
+        <p>Working with server-side web development.</p>
+    </div>
+
+    <div class="skill-card">
+        <h3>MySQL</h3>
+        <p>Managing and working with databases.</p>
+    </div>
+
+    <div class="skill-card">
+        <h3>Git & GitHub</h3>
+        <p>Managing code and tracking project development.</p>
+    </div>
+
+    <div class="skill-card">
+        <h3>WordPress</h3>
+        <p>Creating and customizing websites.</p>
+    </div>
+
+</div>
 
     </div>
 
@@ -105,35 +158,12 @@
     </div>
 
 </section>
-<section id="about">
-
-    <div class="about-content">
-
-        <h2>About Me</h2>
-
-        <p>
-            I'm a Computer Science student passionate about
-            web development and technology. I enjoy creating
-            modern, responsive and user-friendly websites.
-        </p>
-
-        <p>
-            Currently, I'm improving my skills in HTML, CSS,
-            JavaScript, PHP and MySQL while building real-world
-            projects.
-        </p>
-
-    </div>
-
-</section>
 <section id="education">
-
     <div class="education-content">
 
         <h2>Education</h2>
 
         <div class="education-card">
-
             <h3>Associate Degree in Computer Science</h3>
 
             <p class="institution">
@@ -141,37 +171,46 @@
             </p>
 
             <p>
-                Currently pursuing my Associate Degree in Computer Science
-                with a focus on programming, databases, networking and
-                web development.
+                Currently pursuing an Associate Degree in Computer Science.
+                My studies include programming, databases, networking,
+                digital logic, data structures and web development.
             </p>
 
+            <p class="status">
+                Currently Studying
+            </p>
         </div>
 
     </div>
-
 </section>
 <section id="contact">
-
     <div class="contact-content">
 
         <h2>Let's Work Together</h2>
 
         <p>
-            Have a project or opportunity in mind?
-            Feel free to get in touch.
+            Have a project, idea or opportunity?
+            I'd love to hear from you.
         </p>
 
-        <a href="mailto:your-email@example.com">
-            Contact Me
-        </a>
+        <div class="contact-buttons">
+
+            <a href="mailto:seratwebdeveloper@gmail.com">
+                Email Me
+            </a>
+
+            <a href="https://github.com/noor1234-art/Noor-Portfolio"
+               target="_blank">
+                GitHub
+            </a>
+
+        </div>
 
     </div>
-
-</section>
     </main>
         <footer>
         <p>&copy; 2026 Noor. All rights reserved.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
