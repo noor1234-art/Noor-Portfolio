@@ -425,3 +425,22 @@ section h2 {
 nav ul a.active {
     color: #a855f7;
 }
+#backToTop {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    background-color: #a855f7;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+    transition: 0.3s ease;
+}
+
+#backToTop:hover {
+    transform: translateY(-5px);
+}
